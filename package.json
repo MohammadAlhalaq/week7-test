@@ -1,10 +1,10 @@
 {
   "name": "week7-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project has a server, front-end and a database, the server and front-end have been set up for you.",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "NODE_ENV = 'development' node server/index.js",
     "dev": "nodemon server/index.js"
   },
   "repository": {
@@ -23,6 +23,10 @@
     "pg": "^7.12.1"
   },
   "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "nodemon": "^1.19.1"
-  }
+  },
+  "keywords": []
 }
